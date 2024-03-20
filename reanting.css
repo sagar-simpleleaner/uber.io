@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contant{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+}
+.navimg{
+    height: 50px;
+    margin-left: 50px;
+    width: 50px;
+    margin-top: -7px;
+}
+.navbar .ol {
+    display: flex;
+    margin-left: 0px;
+    gap: 20px;
+    list-style: none;
+    margin-right: 250px;
+}
+.navbar .ol a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.navbar .ol a:hover{
+    background-color: rgb(137, 128, 128);
+    border-radius: 10px;
+}
+.navbar .ul {
+    margin-right: 30px;
+}
+.navbar .ul {
+    display: flex;
+    margin-left: 0px;
+    gap: 20px;
+    list-style: none;
+}
+.navbar .ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.navbar .ul a:hover{
+    background-color: rgb(137, 128, 128);
+    border-radius: 10px;
+}
+.back{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("rent\ background.png");
+    color: white;
+}
+.back h1{
+    padding-top: 20%;
+    padding-left: 4%;
+    padding-right: 65vw;
+}
+.back p{
+    padding-left: 4vw;
+    padding-right: 65vw;
+}

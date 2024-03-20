@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 135vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navi{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+.navi ul {
+    padding-top: 5px;
+    gap: 15px;
+    margin-left: 20px;
+    display: flex;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navi ul li {
+    list-style: none;
+}
+.navb {
+    margin-left: 35%;
+    margin-top: -5px;
+}
+.firstbusiness{
+    background-color: rgb(222, 241, 248);
+    margin-bottom: 50px;
+    margin-top: 0px;
+    width: 135vw;
+}
+.businesss{
+    display: flex;
+    gap: 30px;
+}
+.approach{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.approach ul{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.approach button{
+    margin-bottom: 50px;
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    color: wheat;
+    width: 100px;
+    height: 40px;
+}
+.approach button:hover{
+    background-color: rgb(18, 17, 17);
+    color: white;
+    cursor: pointer;
+}
+.sen{
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.contant{
+    background-color: black;
+    width: 135vw;
+    color: white;
+}
+.aboutimg{
+    margin-left: 4%;
+}
+.about{
+    display: flex;
+    gap: 10%;
+}
+.Company{
+    margin-left: 5%;
+}
+.Company ul a{
+    text-decoration: none;
+    color: white;
+}
+.Company ul a:hover{
+    color: rgb(152, 133, 133);
+}
+.Company ul a li{
+    list-style: none;
+}
+.Products ul a{
+    text-decoration: none;
+    color: white;
+}
+.Products ul a:hover{
+    color: rgb(152, 133, 133);
+}
+.Products ul a li{
+    list-style: none;
+}
+.Global ul a{
+    text-decoration: none;
+    color: white;
+}
+.Global ul a:hover{
+    color: rgb(152, 133, 133);
+}
+.Global ul a li{
+    list-style: none;
+}
+.Travel ul a {
+    text-decoration: none;
+    color: white;
+}
+.Travel ul a:hover{
+    color: rgb(152, 133, 133);
+}
+.Travel ul a li{
+    list-style: none;
+    margin-right: 70%;
+}
+.soc{
+    display: flex;
+}
+.social{
+    margin-left: 5%;
+    
+}
+.socialimg{
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.socialimg:hover{
+    background-color: rgb(137, 128, 128);
+    border-radius: 10px;
+
+}
+.lang{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+.lang a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+.lang a:hover{
+    background-color: rgb(137, 128, 128);
+    border-radius: 10px;
+}
+.appdownload{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.appimg{
+    height: 30px;
+}
+.footer{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.footera{
+    margin-left: 50%;
+}
+.footera a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+.footera a:hover{
+    color: rgb(152, 133, 133);
+}
+.linehori{
+    border: 1px solid white;
+    margin-bottom: 10px;
+    width: 0px;
+    margin-left: 15px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+.linehori::before {
+    content: '';
+    border-left: 1px solid black;
+    height: 30px;
+    display: block;
+}
